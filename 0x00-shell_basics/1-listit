@@ -1,12 +1,2 @@
 #!/bin/bash
    ls
-```
-
-6. **Commit the file**:
-   - Commit message: "Add script to list directory contents"
-   - Click "Commit changes"
-
-## Expected Output:
-When you run the script, it will display something like:
-```
-0-current_working_directory  1-listit  README.md
