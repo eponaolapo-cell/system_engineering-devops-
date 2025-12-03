@@ -3,7 +3,7 @@
 # When receiving SIGTERM, displays "I am invincible!!!" and continues
 
 # Trap SIGTERM signal and display message
-trap 'echo "I am invincible!!!"' SIGTERM
+trap 'echo "OK"' SIGTERM
 
 # Infinite loop
 while true
