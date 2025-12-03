@@ -2,13 +2,8 @@
 # Script that displays "To infinity and beyond" indefinitely
 # When receiving SIGTERM, displays "I am invincible!!!" and continues
 
-# Define the signal handler function
-sigterm_handler() {
-    echo "I am invincible!!!"
-}
-
-# Trap SIGTERM signal and call the handler function
-trap sigterm_handler SIGTERM
+# Trap SIGTERM signal and display message
+trap 'echo "I am invincible!!!"' SIGTERM
 
 # Infinite loop
 while true
