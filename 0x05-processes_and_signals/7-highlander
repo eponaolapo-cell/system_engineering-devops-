@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
-# A Bash script that prints a message indefinitely and reacts to SIGTERM without exiting
+# A Bash script that prints a message indefinitely and reacts to SIGTERM
 
-# Define a trap to handle SIGTERM
-trap 'echo "I am invincible!!!"' SIGTERM
+# Define a trap to handle SIGTERM and exit cleanly
+trap 'echo "OK"; exit 0' SIGTERM
 
 # Infinite loop
 while true; do
