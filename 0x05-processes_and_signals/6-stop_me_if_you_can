@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Script that stops the 4-to_infinity_and_beyond process
+# Script that stops 4-to_infinity_and_beyond
 pkill -f 4-to_infinity_and_beyond
 
 if [ -n "$pid" ]; then
