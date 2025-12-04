@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
-Script that prints "To infinity and beyond" indefinitely with a 2-second pause
-
+# This script continuously prints "To infinity and beyond" every 2 seconds
 while true
 do
   echo "To infinity and beyond"
