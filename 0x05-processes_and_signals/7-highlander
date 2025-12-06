@@ -1,9 +1,12 @@
 #!/usr/bin/env bash
+# Script that displays "To infinity and beyond" indefinitely
+# Displays "OK" when receiving a SIGTERM signal
 
-# Print OK when receiving SIGTERM
+# Trap SIGTERM and print "OK"
 trap 'echo "OK"; exit 0' SIGTERM
 
 while true
 do
+    echo "To infinity and beyond"
     sleep 2
 done
