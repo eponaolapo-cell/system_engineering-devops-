@@ -1,5 +1,6 @@
+bash
 #!/usr/bin/env bash
-A Bash script that runs indefinitely and ignores SIGTERM
+This script runs indefinitely and handles SIGTERM by printing a message
 
 trap 'echo "I am invincible!!!"' SIGTERM
 
