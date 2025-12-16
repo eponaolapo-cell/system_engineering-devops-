@@ -2,7 +2,7 @@ bash
 #!/usr/bin/env bash
 This script runs indefinitely and handles SIGTERM by printing a message
 
-trap 'echo "I am invincible!!!"' SIGTERM
+trap 'echo I am invincible!!!' SIGTERM
 
 while true; do
     echo "To infinity and beyond"
